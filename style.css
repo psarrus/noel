@@ -1,0 +1,178 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+.clear {
+   clear: both;
+ }
+
+ main {
+   width: 1070px;
+   height: 920px;
+   margin: auto ;
+   padding-top: 20px;
+   border-bottom: 1px solid #EAEAEA;
+ }
+
+header {
+  background-color: black;
+}
+
+nav {
+  width: 1070px;
+  margin: auto;
+}
+
+.menu {
+  height: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #84959B;
+}
+
+nav li {
+  float: left;
+  list-style-type: none;
+  padding: 16px 10px 0 0;
+}
+
+.first-item {
+  padding: 13px 10px 1px 0;
+  font-size: 19px;
+}
+
+aside {
+  width: 25%;
+  float: left;
+}
+
+aside ul {
+  border: 1px solid #84959B;
+  border-radius: 5px;
+  margin: 20px 30px 0 0;
+}
+
+aside li {
+  list-style-type: none;
+  padding: 10px 10px 10px 10px;
+}
+
+aside .li1 {
+  background-color: #337AB7;
+}
+
+aside .li2 {
+  border-top: 1px solid #84959B;
+  border-bottom: 1px solid #84959B;
+}
+
+aside .cat1 {
+  color: white;
+}
+
+aside a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.container {
+  width: 75%;
+  float: left;
+}
+
+section .fa-star,.fa-star-o {
+  margin-right: 5px;
+}
+
+.s1, .s2 {
+  border: 1px solid #EAEAEA;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.s2 {
+  background-color: #F5F5F5;
+}
+
+.font-blue {
+  color: #337AB7;
+}
+
+.pdt {
+  padding: 10px;
+}
+
+h3 {
+  display: inline-block;
+}
+
+.s1 .par {
+  padding: 10px 10px 0 10px;
+  color: #333333;
+}
+
+.first-art {
+  height: 59px;
+  margin: 0 15px 0 15px;
+  padding: 15px 0 15px 0;
+  color: #333333;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.first-art a {
+  /*display: inline-block;*/
+  float: right;
+  text-decoration: none;
+  background-color: #5CB85C;
+  color: white;
+  padding: 5px 8px 5px 8px;
+  border-radius: 5px;
+}
+
+.art {
+  margin: 0 15px 0 15px;
+  padding: 15px 0 30px 0;
+  color: #333333;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.last-art {
+  margin: 0 15px 0 15px;
+  padding: 15px 0 30px 0;
+  color: #333333;
+}
+
+.prix {
+  float: right;
+  margin-top: 2px;
+  color: #333333;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.font-pink {
+  color: #D17581
+}
+
+.star {
+  padding: 10px 10px 10px 10px;
+}
+
+footer {
+  width: 1070px;
+  margin: auto;
+  color: #333333;
+  padding-top: 60px;
+}
